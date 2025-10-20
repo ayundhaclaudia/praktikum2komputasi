@@ -1,7 +1,7 @@
 pipeline { 
   agent any 
   environment { 
-    IMAGE_NAME = 'revania/simple-app' 
+    IMAGE_NAME = 'ayundha/simple-app' 
     REGISTRY_CREDENTIALS = 'dockerhub-credentials' 
   } 
   stages { 
@@ -20,3 +20,4 @@ pipeline {
     } 
   } 
 }
+
